@@ -108,3 +108,19 @@ Returns a message confirming that the API is running.
 {
   "comment": "You are a stupid idiot person and I hate you"
 }
+
+### Example Response
+
+```json
+{
+  "comment": "You are a stupid idiot person and I hate you",
+  "is_toxic": true,
+  "predictions": {
+    "toxic": true,
+    "severe_toxic": false,
+    "obscene": true,
+    "threat": false,
+    "insult": true,
+    "identity_hate": false
+  }
+}
