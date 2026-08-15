@@ -96,19 +96,19 @@ The trained model is served using FastAPI.
 
 ```http
 GET /
-Prediction Endpoint
 
 
-POST /predict
 
 
-Request:
+
+
+#Request:
 {
     "comment": "You are a stupid idiot person and I hate you"
 }
 
 
-Example response:
+#Example response:
 {
     "comment": "You are a stupid idiot person and I hate you",
     "is_toxic": true,
