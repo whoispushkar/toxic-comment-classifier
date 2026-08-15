@@ -94,27 +94,17 @@ The trained model is served using FastAPI.
 
 ### Home Endpoint
 
-```http
-GET /
+`GET /`
 
+Returns a message confirming that the API is running.
 
+### Prediction Endpoint
 
-#Request:
+`POST /predict`
+
+#### Request
+
+```json
 {
-    "comment": "You are a stupid idiot person and I hate you"
-}
-
-GET /
-#Example response:
-{
-    "comment": "You are a stupid idiot person and I hate you",
-    "is_toxic": true,
-    "predictions": {
-        "toxic": true,
-        "severe_toxic": false,
-        "obscene": true,
-        "threat": false,
-        "insult": true,
-        "identity_hate": false
-    }
+  "comment": "You are a stupid idiot person and I hate you"
 }
