@@ -108,10 +108,12 @@ Returns a message confirming that the API is running.
 {
   "comment": "You are a stupid idiot person and I hate you"
 }
+```
 
-### Example Response
+#### Example Response
 
 ```json
+
 {
   "comment": "You are a stupid idiot person and I hate you",
   "is_toxic": true,
@@ -124,3 +126,4 @@ Returns a message confirming that the API is running.
     "identity_hate": false
   }
 }
+```
