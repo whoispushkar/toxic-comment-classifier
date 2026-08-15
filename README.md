@@ -99,15 +99,12 @@ GET /
 
 
 
-
-
-
 #Request:
 {
     "comment": "You are a stupid idiot person and I hate you"
 }
 
-
+GET /
 #Example response:
 {
     "comment": "You are a stupid idiot person and I hate you",
