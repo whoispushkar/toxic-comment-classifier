@@ -15,7 +15,7 @@ st.set_page_config(
 # FastAPI Backend
 # --------------------------------------------------
 
-API_URL = "https://toxic-comment-classifier-7lee.onrender.com/"
+API_URL = "https://toxic-comment-classifier-7lee.onrender.com"
 
 # --------------------------------------------------
 # Custom CSS
